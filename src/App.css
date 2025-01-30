@@ -1,0 +1,56 @@
+.ground {
+  background-color: green;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 25%;
+  border-radius: 50%;
+}
+
+.ground > .boundary {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  top: 30px;
+  left: 30px;
+  border: 1px solid white;
+  border-radius: 50%
+}
+
+.ground > .boundary > .yard {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 110px;
+  left: 120px;
+  border: 1px solid white;
+  border-style: dotted;
+  border-radius: 50%
+}
+
+.ground > .boundary > .yard > .pitch {
+  background-color: rgb(128, 120, 106);
+  position: absolute;
+  height: 160px;
+  width: 60px;
+  top: 80px;
+  left: 150px;
+}
+
+.ground > .boundary > .yard > .pitch > .crease-bat {
+  position: absolute;
+  background-color: white;
+  top: 15px;
+  margin-left: -45px;
+  height: 1px;
+  width: 150px;
+}
+
+.ground > .boundary > .yard > .pitch > .crease-bol {
+  position: absolute;
+  background-color: white;
+  bottom: 15px;
+  margin-left: -45px;
+  height: 1px;
+  width: 150px;
+}
